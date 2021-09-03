@@ -1,9 +1,9 @@
 name: New Issue 
 description: File a new issue
-title: "[New Issue]: "
-labels: [Bug, automation]
-# assignees:
-#   - octocat
+title: "Title can be anything"
+labels: [bug, good first issue]
+assignees:
+  - octocat
 body:
   - type: markdown
     attributes:
@@ -22,7 +22,6 @@ body:
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
       value: "A bug happened!"
     validations:
       required: true
@@ -46,17 +45,19 @@ body:
         - Chrome
         - Safari
         - Microsoft Edge
+
+  - type: checkboxes
+    id: ice-cream-flavors
+    attributes:
+      label: What are your favorite ice cream flavors
+      options:
+        - label: lavendar
+        - label: lemon
+        - label: vanilla
+        - label: cafe 32
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant log output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
-      render: shell
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true
