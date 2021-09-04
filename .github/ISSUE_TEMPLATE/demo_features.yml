@@ -1,0 +1,44 @@
+name: Demo Issue 
+description: File a new issue
+title: "Title can be anything"
+labels: [bug, good first issue, enhancement]
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This is a very important test
+  - type: input
+    id: email
+    attributes:
+      label: Add Your Email
+      description: Please add your email so we can thank you later.
+      placeholder: ex. email@example.com
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: What's the issue?
+      description: Describe the issue in detail?
+      value: "This is just here just because"
+    validations:
+      required: true
+  - type: dropdown
+    id: superheroes
+    attributes:
+      label: Who is your favorite superhero? (Select all that apply)
+      multiple: true
+      options:
+        - Scarlet Witch
+        - Black Widow
+        - Captain Marvel
+        - Gamora
+  - type: checkboxes
+    id: ice-cream-flavors
+    attributes:
+      label: What are your favorite ice cream flavors
+      options:
+        - label: lavender
+          required: true
+        - label: lemon
+        - label: vanilla
+        - label: cafe 451
