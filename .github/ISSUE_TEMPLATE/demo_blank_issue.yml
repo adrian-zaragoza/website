@@ -1,5 +1,5 @@
 name: Demo Blank Issue 
-description: File a new issue
+description: Standard HackforLA issue template
 
 body:
   - type: input
