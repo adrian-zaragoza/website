@@ -1,22 +1,22 @@
-name: 'Responsiveness on mobile '
+name: 'Demo Responsiveness on mobile '
 description: 'Standard HackforLA issue template '
 title: 'Mobile Responsiveness on [name of the page] : [quick recap of the bug here]'
 labels: ['role: design']
-assignees: ''
+# assignees:
 
-# body:
-#   - type: textarea
-#     id: overview
-#     attributes:
-#       label: Overview
-#       description: "We need to check the mobile version of every pages on the website so that we correct any bug that is appearing on mobile.
-#       1. Explain the bug that you have observed
-#       2. Put a screenshot of the bug: you can use the following template to create a drop down image"
-#       value: "
-#       # <details>
-#       # <summary>TITLE IMAGE </summary>
-#       # PASTE_YOUR_IMAGE_HERE
-#       # </details>
-#       # "
-#     validations:
-#       required: true
+body:
+  - type: textarea
+    id: overview
+    attributes:
+      label: Overview
+      description: "We need to check the mobile version of every pages on the website so that we correct any bug that is appearing on mobile.
+      1. Explain the bug that you have observed
+      2. Put a screenshot of the bug: you can use the following template to create a drop down image"
+      value: "
+      <details>
+      <summary>TITLE IMAGE </summary>
+      PASTE_YOUR_IMAGE_HERE
+      </details>
+      "
+    validations:
+      required: true
