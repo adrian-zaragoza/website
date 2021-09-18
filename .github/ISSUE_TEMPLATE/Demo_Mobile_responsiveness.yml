@@ -12,10 +12,11 @@ body:
       description: "We need to check the mobile version of every pages on the website so that we correct any bug that is appearing on mobile.
       1. Explain the bug that you have observed
       2. Put a screenshot of the bug: you can use the following template to create a drop down image"
-      value: |
-      <details>
-      <summary>TITLE IMAGE </summary>
-      PASTE_YOUR_IMAGE_HERE
-      </details>
+      value: "
+      <details>\n
+      <summary>TITLE IMAGE </summary>\n
+      PASTE_YOUR_IMAGE_HERE\n
+      </details>\n
+      "
     validations:
       required: true
