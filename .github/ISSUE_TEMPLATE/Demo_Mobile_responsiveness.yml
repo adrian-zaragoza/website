@@ -20,8 +20,9 @@ body:
       "
     validations:
       required: true
-  # - type: markdown
-  #   value: "### Action Items"
+  - type: markdown
+    attributes:
+      value: "### Action Items"
   - type: checkboxes
     id: action-design
     attributes:
@@ -31,13 +32,13 @@ body:
         - label: "If there is any bug/any inconsistency or problem, however small or large, edit this issue and list the bug with screenshots in the Overview section above :arrow_up:. _You have more than one bug? duplicate this issue and create one issue per bug. "
         - label: "List all the changes to implement to correct the bug (eg: resizing..) in the development action items below :arrow_down:. (don't hesitate to create 1 checkbox for each changes)"
         - label: "Put the issue(s) in the review column to check the feasibility with the devs. "
-  - type: checkboxes
+  - type: textarea
     id: action-development
     attributes:
-      label: "Development"
-      options:
-        - label: "Implement the following changes : '_list your changes here_ '"
-        - label: "Ensure that the correction doesn't break any other pages that is connected to the one your changing. For that, check  [the sitemap](https://www.hackforla.org/sitemap.xml)"
+      label: Development
+      value: |
+        - [ ] Implement the following changes : '_list your changes here_ '
+        - [ ] Ensure that the correction doesn't break any other pages that is connected to the one your changing. For that, check  [the sitemap](https://www.hackforla.org/sitemap.xml)
   - type: textarea
     id: resources-instructions
     attributes:
