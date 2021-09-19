@@ -22,7 +22,7 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: "Action Items"
+      value: "# Action Items"
   - type: checkboxes
     id: action-design
     attributes:
