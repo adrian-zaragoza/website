@@ -1,0 +1,39 @@
+name: Demo Project Profile Card review and update
+description: To track project profile card updates
+title: 'Update Project Profile: [Project Name]'
+# labels: []
+# assignees:
+
+body:
+  - type: input
+    id: project-name
+    attributes:
+      label: Overview
+      value: As a product manager of [INSERT PROJECT NAME] 
+      I want my project's details to be up to date on the HackforLA website
+  - type: input
+    id: team-leadership
+    attributes:
+      label: Action Items
+      value: [INSERT TEAM NAME HERE] Team Leadership
+  - type: checkboxes
+    id: action-items-check
+    attributes:
+      label: "Please check off everything that is ok the way that it is, and if not, please provide the updated information in the comments below:"
+      options:
+        - label: title
+        - label: description
+        - label: image
+        - label: leadership
+        - label: links
+          - label: Github
+          - label: Slack
+          - label: Test Site
+          - label: Demo Site
+          - label: Site
+        - label: looking
+        - label: technologies
+        - label: location
+        - label: partner
+        - label: tools
+        - label: status
