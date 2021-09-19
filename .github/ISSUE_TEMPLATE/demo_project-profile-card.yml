@@ -9,8 +9,7 @@ body:
     id: project-name
     attributes:
       label: Overview
-      value: As a product manager of [INSERT PROJECT NAME] 
-      I want my project's details to be up to date on the HackforLA website
+      value: As a product manager of [INSERT PROJECT NAME] I want my project's details to be up to date on the HackforLA website
   - type: input
     id: team-leadership
     attributes:
