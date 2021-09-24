@@ -30,9 +30,9 @@ body:
       options:
         - "Yes"
         - "No"
-      validations:
-        required: true
+    validations:
+      required: true
   - type: textarea
-    id: action-items
+    id: dependency-explanation
     attributes:
       label: If Yes, please explain
