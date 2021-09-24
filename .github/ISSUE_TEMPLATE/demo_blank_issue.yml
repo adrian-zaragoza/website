@@ -23,4 +23,16 @@ body:
       description: "Provide links to resources or instructions that may help with this issue. This can include files to be worked on, external sites with solutions, documentation, etc."
     validations:
       required: true
-  
+  - type: dropdown
+    id: dependency
+    attributes:
+      label: Is there a dependency?
+      options:
+        - "Yes"
+        - "No"
+      validations:
+        required: true
+  - type: textarea
+    id: action-items
+    attributes:
+      label: If Yes, please explain

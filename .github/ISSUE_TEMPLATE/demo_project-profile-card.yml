@@ -25,11 +25,11 @@ body:
         - label: image
         - label: leadership
         - label: links
-          - label: Github
-          - label: Slack
-          - label: Test Site
-          - label: Demo Site
-          - label: Site
+        - label: Github
+        - label: Slack
+        - label: Test Site
+        - label: Demo Site
+        - label: Site
         - label: looking
         - label: technologies
         - label: location
