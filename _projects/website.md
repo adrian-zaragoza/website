@@ -86,5 +86,7 @@ location:
   - Remote
 visible: true
 status: Active
-program area: Workforce Development
+program-area: 
+  - Workforce Development 
+  - Civic Tech Infrastructure
 ---
