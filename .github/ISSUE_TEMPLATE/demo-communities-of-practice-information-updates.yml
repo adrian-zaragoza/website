@@ -31,14 +31,14 @@ body:
   - type: textarea
     id: remove-person
     attributes:
-      label: ""
-      description: "Remove person(s) and info from CoP file: YES"
+      label: "Remove person(s) and info from CoP file: YES"
+      # description: "Remove person(s) and info from CoP file: YES"
       value: "Name:"
   - type: textarea
     id: add-persons
     attributes:
-      label: ""
-      description: "Add person(s) and info to CoP file: YES"
+      label: "Add person(s) and info to CoP file: YES"
+      # description: "Add person(s) and info to CoP file: YES"
       value: |
         Name:
         Title:
