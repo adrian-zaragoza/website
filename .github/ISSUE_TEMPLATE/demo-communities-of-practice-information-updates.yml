@@ -1,0 +1,50 @@
+name: Demo Communities of Practice information updates
+description: Template for CoP leads to review and update the Name, Description. Leadership
+  Type, Leadership members, Slack in order keep the community of practice page on
+  the website up to date.
+title: 'Communities of Practice information updates: [INSERT NAME OF Community of
+  Practice'
+labels: ['role: product']
+
+body:
+  - type: markdown
+    attributes:
+      value: "### Overview"
+  - type: markdown
+    attributes:
+      value: "As a Community of Practice Co-Lead, I need my CoP's details to be up to date on the HackforLA website."
+  - type: markdown
+    attributes:
+      value: "### Action Items"
+  - type: markdown
+    attributes:
+      value: "Change CoP name: NO"
+  - type: markdown
+    attributes:
+      value: "Change Description: NO"
+  - type: markdown
+    attributes:
+      value: "Change Leadership Type: NO"
+  - type: markdown
+    attributes:
+      value: "Change Slack Link: NO"
+  - type: textarea
+    id: remove-person
+    attributes:
+      label: 
+      description: "Remove person(s) and info from CoP file: YES"
+      value: "Name:"
+  - type: textarea
+    id: add-persons
+    attributes:
+      label: 
+      description: "Add person(s) and info to CoP file: YES"
+      value: |
+        Name:
+        Title:
+        GitHub Handle:
+        Slack Member ID:
+  - type: textarea
+    id: resources
+    attributes:
+      label: Resources
