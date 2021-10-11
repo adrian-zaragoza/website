@@ -18,9 +18,6 @@ body:
       value: "### Action Items"
   - type: markdown
     attributes:
-      value: "Change CoP name: NO"
-  - type: markdown
-    attributes:
       value: "Change Description: NO"
   - type: markdown
     attributes:
@@ -28,23 +25,43 @@ body:
   - type: markdown
     attributes:
       value: "Change Slack Link: NO"
+  - type: dropdown
+    id: remove-person-yes-no
+    attributes:
+      label: "Remove person(s) and info from CoP file?"
+      options:
+        - YES
+        - NO
+    validations:
+      required: true
   - type: textarea
     id: remove-person
     attributes:
-      label: "Remove person(s) and info from CoP file: YES"
-      # description: "Remove person(s) and info from CoP file: YES"
+      label: "If YES on remove person(s),"
       value: "Name:"
+  - type: dropdown
+    id: add-person-yes-no
+    attributes:
+      label: "Add person(s) and info to CoP file?"
+      options:
+        - YES
+        - NO
+    validations:
+      required: true
   - type: textarea
     id: add-persons
     attributes:
-      label: "Add person(s) and info to CoP file: YES"
-      # description: "Add person(s) and info to CoP file: YES"
+      label: "If YES on add person(s),"
       value: |
         Name:
         Title:
         GitHub Handle:
         Slack Member ID:
-  - type: textarea
-    id: resources
+  - type: markdown
     attributes:
-      label: Resources
+      value: "### Resources"
+  - type: markdown
+    attributes:
+      value: |
+        folder where files are in the repo: https://github.com/hackforla/website/tree/gh-pages/_data/internal/communities
+        where you can see the live page: https://www.hackforla.org/communities-of-practice
