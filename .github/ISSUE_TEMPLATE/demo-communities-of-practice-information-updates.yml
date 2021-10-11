@@ -18,6 +18,9 @@ body:
       value: "### Action Items"
   - type: markdown
     attributes:
+      value: "Change CoP name: NO"
+  - type: markdown
+    attributes:
       value: "Change Description: NO"
   - type: markdown
     attributes:
