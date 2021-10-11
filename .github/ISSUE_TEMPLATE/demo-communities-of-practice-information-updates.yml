@@ -30,8 +30,8 @@ body:
     attributes:
       label: "Remove person(s) and info from CoP file?"
       options:
-        - YES
-        - NO
+        - "YES"
+        - "NO"
     validations:
       required: true
   - type: textarea
@@ -44,8 +44,8 @@ body:
     attributes:
       label: "Add person(s) and info to CoP file?"
       options:
-        - YES
-        - NO
+        - "YES"
+        - "NO"
     validations:
       required: true
   - type: textarea
